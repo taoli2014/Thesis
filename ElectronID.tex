@@ -1,0 +1,35 @@
+\section[Electron ID]{Electron identification and number counting}
+Electron identification is the process to reject protons and helium in the data sample. The most efficient identification method is using ECAL and TRD. Some additional cuts on the ToF and Tracker also help to clean the sample and guarantee the data quality.\\
+In this analysis, the electron number is counted with template fit method on the EcalStandaloneEstimatorV3 (ESEV3) variable, which is an ECAL standalone estimator for electrons and protons. The sample on which the fit is performed is preselected with TRD estimator.
+
+\subsection{Preselection}\label{sec:presel}
+With the preselection, the events badly reconstructed are rejected. The cuts for preselection is 
+\begin{itemize}
+\item Live time greater than 0.5
+\item At least 1 shower in the ECAL
+\item At least 1 track in the tracker
+\item TRD estimator correctly calculated
+\item Reconstructed energy greater than the rigidity of geomagnetic cutoff: 
+\end{itemize}
+
+\subsection{Electron selection}
+The electron selection is divided into two categories: ECAL selection and tracker related selection.
+\subsubsection{ECAL selection}
+The ECAL selection includes two basic cuts on the ECAL shower: fiducial volume and number of showers.
+\paragraph{Fiducial volume:} The showers who fall at the border of the ECAL are often pooly reconstructed, which will lead to important energy migration and lepton misidentification. A fiducial volume cut is applied on ECAL to minimize such negative effects.
+\paragraph{Number of showers:} For an event who has more than one shower in the ECAL, the most energetic shower is selected for the analysis. However, when more than 2 showers are present, the reconstructed energy accuracy as well as lepton identification is great reduced. So in this analysis, it is required that the number of showers is smaller than 2.
+\subsubsection{ToF-Tracker selection}
+The ToF-Tracker selection consists of 6 cuts on the ToF and Tracker related variables.
+\paragraph{BetaH:} BetaH is the velocity measured by ToF. With a cut BetaH>0.8, particles coming from the bottom as well as slow particles which are not lepton-like can be efficiently removed.
+\paragraph{Single track:} The number of tracker track is required to be one and only. This helps to improve the data quality and remove the interacting protons.
+\paragraph{Tracker-ECAL matching:} The match between tracker extrapolation and ECAL shower entry is asked to be within 3cm in X direction and 5cm in Y.
+\paragraph{Energy-rigidity matching(EoP):} In this analysis, two cuts related to EoP are applied: $E_{dep}/Rig>0.6$ and $E_{rec}/Rig<10$, where $E_{dep}$ is the deposited energy in the ECAL, Rig the rigidity measured by the Tracker and $E_{rec}$ the reconstructed energy in the ECAL. The first cut gets rid of the protons and the second one removes the bad tracks.\\
+For a lepton who has an electromagnetic shower, the ECAL energy is very close to the particle's true energy. So the ratio $Energy/Rigidity$ is close to 1.
+\paragraph{Inner Tracker charge:} Inner tracker charge is the electronic charge measured by the inner layers of the tracker. A cut at $Q_{tracker}<$1.5 is used to get rid of helium in the data sample. Inner instead of max span is to avoid the interactions on the external layers and back splash from the ECAL.\\
+
+\subsection{Template fit and lepton numbers}
+After the above electron selection, the survived events are of good quality and electron-like. However, there still remains some protons. To remove the protons in the sample, the template fit method on ESEV3 is used.
+\subsubsection{Templates from data}
+The electron and proton templates are selected from data by the TRD likelihoodRatio.
+\subsubsection{Fit procedure for different energies}
+\subsubsection{Fit on TRD likelihoodratio}

@@ -1,0 +1,48 @@
+%-------------------------------------------------------------------------------
+% private environments
+%-------------------------------------------------------------------------------
+
+\newcommand{\customChapter}[1]{\chapter{\boldmath #1 \unboldmath}}
+\newcommand{\customSection}[1]{\section{\boldmath #1 \unboldmath}}
+\newcommand{\customSubsection}[1]{\boldmath\subsection{#1}\unboldmath}
+\newcommand{\customSubsubsection}[1]{\boldmath\subsubsection{#1}\unboldmath}
+%-------------------------------------------------------------------------------
+% technical reference definitions
+%-------------------------------------------------------------------------------
+
+\newcommand{\AppendixRef}[1]{Appendix~\ref{#1}}
+\newcommand{\EquationRef}[1]{Equation~(\ref{#1})}
+\newcommand{\FigureRef}[1]{Figure~\ref{#1}}
+\newcommand{\ReferenceRef}[1]{Reference~\cite{#1}}
+\newcommand{\SectionRef}[1]{Section~\ref{#1}}
+\newcommand{\TableRef}[1]{Table~\ref{#1}}
+
+%-------------------------------------------------------------------------------
+% unit definitions
+%-------------------------------------------------------------------------------
+
+\newcommand{\ips}{\ensuremath{\mathrm{ps^{-1}}}}
+\newcommand{\um}{\ensuremath{\mathrm{\mu m}}}
+\renewcommand{\deg}{\ensuremath{^\mathrm{o}}}
+\newcommand{\ifb}{\ensuremath{\mathrm{fb^{-1}}}}
+\newcommand{\fbinv}{\ensuremath{\mathrm{fb^{-1}}}\xspace}
+\newcommand{\pbinv}{\ensuremath{\mathrm{pb^{-1}}}\xspace}
+\newcommand{\ipb}{\ensuremath{\mathrm{pb^{-1}}}}
+\newcommand{\inb}{\ensuremath{\mathrm{nb^{-1}}}}
+\newcommand{\iub}{\ensuremath{\mathrm{\mu b^{-1}}}}
+\newcommand{\fb}{\ensuremath{\mathrm{fb}}}
+\newcommand{\pb}{\ensuremath{\mathrm{pb}}}
+\newcommand{\nb}{\ensuremath{\mathrm{nb}}}
+\newcommand{\ub}{\ensuremath{\mathrm{\mu b}}}
+\newcommand{\eVc}{\ensuremath{\mathrm{e\kern -0.1em V/}c}}
+\newcommand{\keVc}{\ensuremath{\mathrm{ke\kern -0.1em V/}c}}
+\newcommand{\MeVc}{\ensuremath{\mathrm{Me\kern -0.1em V/}c}}
+\newcommand{\GeVc}{\ensuremath{\mathrm{Ge\kern -0.1em V/}c}\xspace}
+\newcommand{\TeVc}{\ensuremath{\mathrm{Te\kern -0.1em V/}c}}
+\newcommand{\eVcc}{\ensuremath{\mathrm{e\kern -0.1em V/}c^2}}
+\newcommand{\keVcc}{\ensuremath{\mathrm{ke\kern -0.1em V/}c^2}}
+\newcommand{\MeVcc}{\ensuremath{\mathrm{Me\kern -0.1em V/}c^2}}
+\newcommand{\GeVcc}{\ensuremath{\mathrm{Ge\kern -0.1em V/}c^2}\xspace}
+\newcommand{\TeVcc}{\ensuremath{\mathrm{Te\kern -0.1em V/}c^2}\xspace}
+\newcommand{\Tesla}{\ensuremath{\mathrm{T}}}
+
