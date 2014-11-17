@@ -1,0 +1,64 @@
+\BOOKMARK [-1][-]{part.1}{I Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Motivations of electron flux measurement}{part.1}% 2
+\BOOKMARK [1][-]{section.1.1}{Propogation model}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Dark matter}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Cosmic rays measurement}{part.1}% 5
+\BOOKMARK [1][-]{section.2.1}{Cosmic ray composition}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.2}{Results from other experiments}{chapter.2}% 7
+\BOOKMARK [0][-]{chapter.3}{Geomagnetic cutoff model}{part.1}% 8
+\BOOKMARK [-1][-]{part.2}{II AMS Detector}{}% 9
+\BOOKMARK [0][-]{chapter.1}{AMS sub-detectors}{part.2}% 10
+\BOOKMARK [1][-]{section.1.1}{Transition Radiation Detector}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.2}{Time of Flight}{chapter.1}% 12
+\BOOKMARK [1][-]{section.1.3}{Silicon Tracker and Magnetic Field}{chapter.1}% 13
+\BOOKMARK [1][-]{section.1.4}{Ring Imaging Cherenkov Detector}{chapter.1}% 14
+\BOOKMARK [1][-]{section.1.5}{Electromagnetic Calorimeter}{chapter.1}% 15
+\BOOKMARK [1][-]{section.1.6}{Particle identification}{chapter.1}% 16
+\BOOKMARK [0][-]{chapter.2}{Performance of ECAL}{part.2}% 17
+\BOOKMARK [0][-]{chapter.3}{AMS trigger system}{part.2}% 18
+\BOOKMARK [-1][-]{part.3}{III Calibration of ECAL}{}% 19
+\BOOKMARK [0][-]{chapter.1}{Energy control}{part.3}% 20
+\BOOKMARK [1][-]{section.1.1}{E/Ebeam with test beam}{chapter.1}% 21
+\BOOKMARK [1][-]{section.1.2}{E/P control Test Beam vs Data}{chapter.1}% 22
+\BOOKMARK [0][-]{chapter.2}{Energy control at low energy with geomagnetic cutoff}{part.3}% 23
+\BOOKMARK [-1][-]{part.4}{IV Electron flux measurement with AMS}{}% 24
+\BOOKMARK [0][-]{chapter.1}{Exposure Time}{part.4}% 25
+\BOOKMARK [1][-]{section.1.1}{Exposure time measurement}{chapter.1}% 26
+\BOOKMARK [0][-]{chapter.2}{Electron Identification}{part.4}% 27
+\BOOKMARK [1][-]{section.2.1}{Electron selection}{chapter.2}% 28
+\BOOKMARK [2][-]{subsection.2.1.1}{ECAL selection}{section.2.1}% 29
+\BOOKMARK [2][-]{subsection.2.1.2}{ToF-Tracker selection}{section.2.1}% 30
+\BOOKMARK [1][-]{section.2.2}{Template fit on ESEV3 }{chapter.2}% 31
+\BOOKMARK [2][-]{subsection.2.2.1}{Templates from data}{section.2.2}% 32
+\BOOKMARK [2][-]{subsection.2.2.2}{Fit procedure for different energies}{section.2.2}% 33
+\BOOKMARK [1][-]{section.2.3}{Fit on TRD likelihoodratio}{chapter.2}% 34
+\BOOKMARK [0][-]{chapter.3}{Trigger and Its Efficiency}{part.4}% 35
+\BOOKMARK [1][-]{section.3.1}{Trigger efficiency study}{chapter.3}% 36
+\BOOKMARK [0][-]{chapter.4}{Selection Efficiency and Systematics}{part.4}% 37
+\BOOKMARK [1][-]{section.4.1}{Acceptance and selection efficiency estimation}{chapter.4}% 38
+\BOOKMARK [2][-]{subsection.4.1.1}{Acceptance of the detector}{section.4.1}% 39
+\BOOKMARK [2][-]{subsection.4.1.2}{Selection efficiency}{section.4.1}% 40
+\BOOKMARK [3][-]{subsubsection.4.1.2.1}{Electron selection efficiency from MC}{subsection.4.1.2}% 41
+\BOOKMARK [3][-]{subsubsection.4.1.2.2}{TRD likelihoodRatio cut efficiency}{subsection.4.1.2}% 42
+\BOOKMARK [2][-]{subsection.4.1.3}{Data-MC efficiency correction}{section.4.1}% 43
+\BOOKMARK [1][-]{section.4.2}{Charge confusion estimation}{chapter.4}% 44
+\BOOKMARK [2][-]{subsection.4.2.1}{Charge confusion from MC}{section.4.2}% 45
+\BOOKMARK [2][-]{subsection.4.2.2}{Electron number corrected from charge confusion}{section.4.2}% 46
+\BOOKMARK [2][-]{subsection.4.2.3}{Charge confusion estimator \(Tracker BDT\)}{section.4.2}% 47
+\BOOKMARK [1][-]{section.4.3}{Syst. uncertainties}{chapter.4}% 48
+\BOOKMARK [2][-]{subsection.4.3.1}{Data-MC correction systematics}{section.4.3}% 49
+\BOOKMARK [3][-]{subsubsection.4.3.1.1}{Systematics in preselection efficiency correction}{subsection.4.3.1}% 50
+\BOOKMARK [3][-]{subsubsection.4.3.1.2}{Systematics in electron selection efficiency correction}{subsection.4.3.1}% 51
+\BOOKMARK [2][-]{subsection.4.3.2}{Trigger efficiency systematics}{section.4.3}% 52
+\BOOKMARK [2][-]{subsection.4.3.3}{Rigidity of cutoff systematics}{section.4.3}% 53
+\BOOKMARK [2][-]{subsection.4.3.4}{Unfolding systematics}{section.4.3}% 54
+\BOOKMARK [0][-]{chapter.5}{Results}{part.4}% 55
+\BOOKMARK [1][-]{section.5.1}{Unfolding of the electron rate}{chapter.5}% 56
+\BOOKMARK [1][-]{section.5.2}{Lepton flux}{chapter.5}% 57
+\BOOKMARK [1][-]{section.5.3}{Electron flux}{chapter.5}% 58
+\BOOKMARK [1][-]{section.5.4}{Consistency checks}{chapter.5}% 59
+\BOOKMARK [2][-]{subsection.5.4.1}{Different selection}{section.5.4}% 60
+\BOOKMARK [2][-]{subsection.5.4.2}{Different binning}{section.5.4}% 61
+\BOOKMARK [2][-]{subsection.5.4.3}{Fit techniques}{section.5.4}% 62
+\BOOKMARK [0][-]{chapter.6}{Interpretation}{part.4}% 63
+\BOOKMARK [0][-]{appendix*.11}{Bibliography}{part.4}% 64

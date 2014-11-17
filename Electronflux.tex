@@ -1,18 +1,31 @@
 \part{Electron flux measurement with AMS}
+In this part, the measurements of the cosmic-ray lepton (electrons+positrons) flux and of the cosmic-ray electron flux are presented. The flux $\Phi_e$ at energy E is given by\\
+\begin{equation} \label{eq:flux}
+\Phi_e(E)=\frac{N_{e}(E)}{\underbrace{Acc(E)\times\epsilon_{sel}(E)}_{\text{MC}}\times\underbrace{corr_{data/MC}}_{\text{MC and ISS data}}\times\underbrace{\epsilon_{TRD}\times\epsilon_{phys.trig.}(E)\times T_{expo}(R)}_{\text{ISS data}}\times\Delta E}
+\end{equation}
+\\
+where $N_e$ is the number of electrons, $Acc$ the acceptance, $\epsilon_{sel}$ the selection efficiency, $corr_{data/MC}$ the efficiency correction Data/MC, $\epsilon_{TRD}$ the \TRD cut efficiency, $\epsilon_{phys.trig.}$ the physics trigger efficiency, $T_{expo}$ the exposure time and $\Delta E$ the energy bin width. The energy range of this measurement is 1 to 700 GeV.  
 
+The part is organised as follows: in the first place, the determination of the exposure time is presented. Secondly, the basic preselection cuts with the control of their efficiency is described. The trigger issues are then developed. 
 
-\chapter{Data analysis of flux measurement}
-The electron flux is by definition...\\
+The electron sample is preselected with cuts on TRD, ToF, tracker and ECAL. The electron number is obtained with template-fit method on the ECAL estimator \ESE.
+\chapter{Exposure Time}
+\input{Expot.tex}
+
+\chapter{Electron Identification}
 In this analysis, 29 months of data up to November 2013 are used. Monte Carlo electron is the current version B620dev. The electron sample is got by applying cuts on TRD, ToF and tracker; the electron number is counted with template-fit method on an ECAL estimator.
 \input{ElectronID.tex}
-\input{CC.tex}
+
+\chapter{Trigger and Its Efficiency}
 \input{Trig.tex}
-\input{Expot.tex}
+
+\chapter{Selection Efficiency and Systematics}
 \input{Seleff.tex}
-\input{Unfolding.tex}
+\input{CC.tex}
 \input{Syst.tex}
 
 \chapter{Results}
+\input{Unfolding.tex}
 \input{FluxResults.tex}
 \input{Consis_checks.tex}
 
